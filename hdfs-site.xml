@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>dfs.webhdfs.enabled</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>dfs.block.access.token.enable</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>dfs.namenode.keytab.file</name>
+        <value>/share/hdfs-service.keytab</value>
+    </property>
+    <property>
+        <name>dfs.namenode.kerberos.principal</name>
+        <value>hdfs/hdfs@EXAMPLE.COM</value>
+    </property>
+    <property>
+        <name>dfs.secondary.namenode.keytab.file</name>
+        <value>/share/hdfs-service.keytab</value>
+    </property>
+    <property>
+        <name>dfs.secondary.namenode.kerberos.principal</name>
+        <value>hdfs/hdfs@EXAMPLE.COM</value>
+    </property>
+    <property>
+        <name>dfs.datanode.keytab.file</name>
+        <value>/share/hdfs-service.keytab</value>
+    </property>
+    <property>
+        <name>dfs.datanode.kerberos.principal</name>
+        <value>hdfs/hdfs@EXAMPLE.COM</value>
+    </property>
+    <property>
+        <name>dfs.datanode.address</name>
+        <value>0.0.0.0:1004</value>
+    </property>
+    <property>
+        <name>dfs.datanode.http.address</name>
+        <value>0.0.0.0:1006</value>
+    </property>
+</configuration>
